@@ -8,25 +8,25 @@ Project Planning
 
 Functional Requirements:
 
--User Interaction: Allow users to interact with the bot through text commands.
--Moderation: Implement moderation features to manage users, messages, and server settings.
--Information Retrieval: Retrieve data, such as server information, and user profiles.
--Customization: Provide options for server owners or admin to customize bot behavior or features.
+- User Interaction: Allow users to interact with the bot through text commands.
+- Moderation: Implement moderation features to manage users, messages, and server settings.
+- Information Retrieval: Retrieve data, such as server information, and user profiles.
+- Customization: Provide options for server owners or admin to customize bot behavior or features.
 
 Non-Functional Requirements:
 
--Performance: Ensure the bot operates efficiently and responds promptly to commands.
--Reliability: Maintain stability and consistent functionality without frequent interruptions.
--Scalability: Design the bot to handle increasing server loads and accommodate future feature expansions.
--Security: Implement secure practices to prevent unauthorized access and data breaches.
+- Performance: Ensure the bot operates efficiently and responds promptly to commands.
+- Reliability: Maintain stability and consistent functionality without frequent interruptions.
+- Scalability: Design the bot to handle increasing server loads and accommodate future feature expansions.
+- Security: Implement secure practices to prevent unauthorized access and data breaches.
 
 Frameworks and Libraries:
 
--Go Lang: Primary programming language for bot development.
--discordgo: Library for interacting with Discord API.
--fmt, os, os/signal, strings, syscall, time: Go standard libraries used for various functionalities.
--github.com/bwmarrin/discordgo: Specifically for Discord integration.
--OS: Develop the bot to be compatible with Windows or Linux.
+- Go Lang: Primary programming language for bot development.
+- discordgo: Library for interacting with Discord API.
+- fmt, os, os/signal, strings, syscall, time: Go standard libraries used for various functionalities.
+- github.com/bwmarrin/discordgo: Specifically for Discord integration.
+- OS: Develop the bot to be compatible with Windows or Linux.
 
 Programming Languages: Primarily using Go Lang.
 
@@ -36,6 +36,6 @@ Integrations:
 
 Artifacts:
 
--Documentation: Comprehensive documentation detailing bot functionality, commands, and setup instructions.
--Test Cases: Develop test cases to ensure the bot operates as intended.
--User Manual: Create a user manual explaining how to use various bot features.
+- Documentation: Comprehensive documentation detailing bot functionality, commands, and setup instructions.
+- Test Cases: Develop test cases to ensure the bot operates as intended.
+- User Manual: Create a user manual explaining how to use various bot features.
