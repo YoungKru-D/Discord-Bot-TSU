@@ -12,7 +12,7 @@ import (
 )
 
 var (
-	token          = "BOT TOKEN"
+	token          = "YOUR TOKEN"
 	voiceStates    = make(map[string]map[string]time.Time) // GuildID -> UserID -> JoinTime
 	welcomeChannel = ""
 )
